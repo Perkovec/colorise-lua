@@ -5,7 +5,7 @@ build = {
 	type = "builtin",
 	modules = {
 		startwarsnames = "src/startwarsnames.lua",
-	},
+	}
 }
 
 dependencies = {
@@ -20,6 +20,6 @@ description = {
 }
 
 source = {
-	url = "git://github.com/me/luafruits",
-  tag = "v1.0"
+	url = "git://github.com/Perkovec/starwars-names-lua",
+  	tag = "v1.0"
 }
