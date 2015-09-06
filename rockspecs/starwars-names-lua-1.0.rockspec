@@ -20,6 +20,6 @@ description = {
 }
 
 source = {
-	url = "git://github.com/Perkovec/starwars-names-lua/archive/master.zip",
-  	dir = "starwars-names-lua-master"
+	url = "git://github.com/Perkovec/starwars-names-lua",
+  	tag = "v1.0"
 }
