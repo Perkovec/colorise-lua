@@ -1,13 +1,18 @@
-StarWars Names
+Colorise
 =======
 
-Get a random Star Wars name
+Color converter for HEX, RGB and RGBA
 
 
 ```Lua
-local SW = require "startwarsnames"
+local color = require "colorise"
 
-SW.random() -- Return random name
-
-SW.all -- All names in table
+print(color.hex2rgb("D2527F")) -- or '#D2527F'
+>> 210     82      127
+print(color.hex2rgba("D2527FEE")) -- or '#D2527FEE'
+>> 210     82      127     238
+print(color.rgb2hex({210, 82, 127}))
+>> #D2527F
+print(color.rgb2hex({210, 82, 127, 238}))
+>> #D2527FEE
 ```
